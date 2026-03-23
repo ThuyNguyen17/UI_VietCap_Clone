@@ -1,0 +1,39 @@
+nav a {
+  padding: 6px 6px;
+  display: inline-block;
+}
+
+nav a:hover {
+  color: #b4b4b4;
+  border-bottom: 2px solid #b4b4b4;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  /* chiều rộng scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #1a1a1a;
+  /* nền track giống nền */
+  border-radius: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color:#b4b4b4;
+  /* vàng nhẹ */
+  border-radius: 8px;
+  border: 2px solid #1a1a1a;
+  /* viền tạo khoảng cách */
+}
+
+/* style scrollbar cho Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color:#b4b4b4 #1a1a1a;
+}
+html, body, #root {
+  height: 100%;
+  background-color: black;
+  margin: 0;
+}

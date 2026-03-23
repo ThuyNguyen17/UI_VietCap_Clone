@@ -1,0 +1,138 @@
+.parallax-container {
+  position: relative;
+  width: 100vw;
+  min-height: 200vh;
+  overflow: hidden;
+  background-size: cover;
+  background-image: url('../images/background2.png');
+}
+
+.parallax-layer {
+  position: absolute;
+  will-change: transform;
+  pointer-events: none;
+}
+
+.sky {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 150vh;
+  object-fit: fill;
+  z-index:2;
+}
+.sun, .city, .rail, .train {
+  position: absolute;
+}
+
+.sun {
+  left: 37vw;
+  bottom: 180vh;
+  width: 5vw;
+  z-index: 2;
+}
+
+.train {
+  left: 12vw;
+  bottom: 125vh;
+  width: 16vw;
+  z-index: 7;
+}
+
+.rail {
+  left: 0;
+  bottom: 113vh;
+  width: 100vw;
+  height: 40vh;
+  object-fit: fill;
+  z-index: 6;
+}
+
+.city {
+  left: 50%;
+  bottom: 110vh;
+  width: 45%; 
+  height: auto;
+  transform: translateX(-50%); /* Thêm dòng này */
+  z-index: 2;
+}
+.desert-rock{
+  left: 0vw;
+  bottom: 20vh;
+  width: 50vw;
+  z-index: 6;
+}
+
+.waterfall {
+  left: 52vw;
+  bottom: 0vh;
+  width: 87vw;
+  height: auto;
+  object-fit: contain;
+  transform: translateX(-50%);
+  z-index: 8;
+}
+.rork.left-rock {
+  left: 0vw;
+  bottom: 87vh;
+  width: 95vw;
+  z-index: 6;
+}
+.rork.right-rock {
+  left: 30vw;
+  bottom: 82vh;
+  width: 70vw;
+  z-index: 6;
+}
+.desert-rock {
+  left: 30vw;
+  bottom: 10vh;
+  width: 50vw;
+  height: 50vh;
+  transform: translateX(-50%);
+  z-index: 8;
+}
+.work-container {
+  left: 30vw;
+  bottom: 5vh;
+  transform: translateX(-50%);
+  width: 20vw;
+  height: 10vw;
+  z-index: 8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.work {
+  width: 100%;
+  height: auto;
+}
+.water {
+  position: absolute;
+  left: 0;
+  bottom: 98vh; /* hoặc 100vh nếu cần */
+  width: 100vw;
+  height: 30vh;
+  background-image: url('../../assets/images/water.png');
+  background-size: 100% 100%; 
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  z-index: 3;
+  pointer-events: none;
+}
+.parallax-title {
+  left: 9vw;
+  bottom: 85vh;
+  width: 100vw;
+  height: 40vh;
+  z-index: 2;
+}
+.features-section {
+  position: relative;
+  z-index: 7;
+  bottom:0;
+  background: transparent;
+  padding: 6rem 0;
+  color: white;
+  overflow: hidden;
+}

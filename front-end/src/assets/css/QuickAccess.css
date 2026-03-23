@@ -1,0 +1,66 @@
+.quick-access {
+  background: #181a20;
+  border-radius: 14px;
+  padding: 28px 32px 20px 32px;
+  margin: 32px auto 24px auto;
+  max-width: 1200px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+}
+
+.quick-access h3 {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.quick-access-list {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.quick-access-item {
+  background: #23272f;
+  border-radius: 10px;
+  padding: 18px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 120px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+  cursor: pointer;
+  transition: background 0.18s, transform 0.18s;
+}
+
+.quick-access-item:hover {
+  background: #22c55e;
+  color: #fff;
+  transform: translateY(-3px) scale(1.04);
+}
+
+.quick-access-item .icon {
+  font-size: 2.1rem;
+  margin-bottom: 8px;
+}
+
+.quick-access-item span {
+  font-size: 1.08rem;
+  font-weight: 500;
+}
+
+@media (max-width: 700px) {
+  .quick-access {
+    padding: 18px 8px 12px 8px;
+  }
+  .quick-access-list {
+    gap: 12px;
+  }
+  .quick-access-item {
+    min-width: 90px;
+    padding: 12px 10px;
+  }
+  .quick-access h3 {
+    font-size: 1.1rem;
+  }
+} 

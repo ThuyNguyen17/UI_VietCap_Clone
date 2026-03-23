@@ -1,0 +1,72 @@
+{
+  "name": "project_agent",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^6.0.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fortawesome/fontawesome-svg-core": "^7.0.0",
+    "@fortawesome/free-solid-svg-icons": "^7.0.0",
+    "@fortawesome/react-fontawesome": "^0.2.3",
+    "@mui/material": "^7.1.2",
+    "@rc-component/util": "^1.2.1",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^13.2.1",
+    "antd": "^5.26.3",
+    "axios": "^1.10.0",
+    "chart.js": "^4.5.0",
+    "d3-scale": "^4.0.2",
+    "framer-motion": "^12.19.2",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^18.2.0",
+    "react-financial-charts": "^2.0.1",
+    "react-icons": "^5.5.0",
+    "react-resize-detector": "^12.1.0",
+    "react-router-dom": "^7.6.3",
+    "react-scripts": "5.0.1",
+    "react-scroll": "^1.9.3",
+    "react-smooth": "^4.0.4",
+    "react-sparklines": "^1.7.0",
+    "recharts": "^2.12.7",
+    "swiper": "^11.2.10",
+    "web-vitals": "^2.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "imagemin": "^8.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-webp": "^8.0.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "optimize-images": "node scripts/optimize-images.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
