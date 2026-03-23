@@ -54,6 +54,5 @@ A comprehensive stock analysis and portfolio management platform.
 - **Frontend**: React, Axios, Tailwind CSS, Framer Motion, Recharts.
 - **Backend**: Express, SQLite3, JSON Web Token, Bcryptjs.
 
-## License
+<img width="1585" height="741" alt="image" src="https://github.com/user-attachments/assets/578f0d87-c3dc-446f-a8ee-69dd65ce26b3" />
 
-MIT License.
